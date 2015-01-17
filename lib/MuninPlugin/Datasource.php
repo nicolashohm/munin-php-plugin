@@ -3,6 +3,9 @@
 namespace MuninPlugin;
 
 /**
+ * Datasource
+ *
+ * @see http://munin-monitoring.org/wiki/protocol-config
  * @author Nicolas Hohm <nickel7152@gmail.com>
  */
 class Datasource extends Data {
