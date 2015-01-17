@@ -1,0 +1,20 @@
+{
+    "name": "nickel715/munin-php-plugin",
+    "description": "object oriented PHP library to create plugins for Munin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolas Hohm",
+            "email": "nickel7152@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MuninPlugin\\": "lib/MuninPlugin"
+        }
+    }
+}
